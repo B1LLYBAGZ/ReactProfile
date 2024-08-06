@@ -1,15 +1,15 @@
 {
-  "name": "portfolio", // Name of the project
-  "version": "0.1.0", // Version of the project
-  "private": true, // Indicates if the project is private
-  "dependencies": { // List of runtime dependencies
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.2.3",
+    "bootstrap": "^5.3.3",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.7.0",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.4.0",
     "react-icons": "^4.7.1",
@@ -22,31 +22,31 @@
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": { // Custom scripts for the project
-    "start": "react-scripts start", // Start the development server
-    "build": "react-scripts build", // Build the project for production
-    "test": "react-scripts test", // Run tests
-    "eject": "react-scripts eject" // Eject the configuration
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "eslintConfig": { // ESLint configuration
+  "eslintConfig": {
     "extends": [
-      "react-app", // Use the default React app ESLint rules
-      "react-app/jest" // Use the default Jest ESLint rules
+      "react-app",
+      "react-app/jest"
     ]
   },
-  "browserslist": { // Browserslist configuration for supporting specific browsers
+  "browserslist": {
     "production": [
-      ">0.2%", // Browsers with more than 0.2% market share
-      "not dead", // Exclude browsers that are no longer maintained
-      "not op_mini all" // Exclude Opera Mini
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version", // Last version of Chrome
-      "last 1 firefox version", // Last version of Firefox
-      "last 1 safari version" // Last version of Safari
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   },
-  "devDependencies": { // List of development dependencies
+  "devDependencies": {
     "pdfjs-dist": "^3.2.146"
   }
 }

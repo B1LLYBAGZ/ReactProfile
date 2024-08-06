@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from '../assets/about.png'
-import Particle from '../components/Particle';
-import About from '../components/Home/About';
-import Type from '../components/Home/Type';
+import homeLogo from "../assets/about.png";
+import Particle from "../components/Particle";
+import About from "../components/Home/About";
+import Type from "../components/Home/Type";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hows it going?{" "}
+                How's it going?{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   😈
                 </span>
@@ -22,7 +22,7 @@ const Home = () => {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> William Hogan</strong>
+                <strong className="main-name"> BILLY</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -44,6 +44,6 @@ const Home = () => {
       <About />
     </section>
   );
-}
+};
 
-export default Home
+export default Home;
