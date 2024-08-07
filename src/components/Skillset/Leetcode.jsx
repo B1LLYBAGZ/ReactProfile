@@ -1,5 +1,5 @@
 import React from "react";
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from "react-markdown";
 import { Row } from "react-bootstrap";
 
 const Leetcode = () => {
@@ -9,10 +9,11 @@ const Leetcode = () => {
         <strong className="yellow">LeetCode</strong> Stat
       </h1>
       <ReactMarkdown>
-      ![LeetCode Stats](https://leetcard.)
+        ![LeetCode
+        Stats](https://leetcard.jacoblin.cool/B1LLYBAGZ?theme=dark&font=Syne%20Mono&ext=heatmap)
       </ReactMarkdown>
     </Row>
   );
-}
+};
 
 export default Leetcode;

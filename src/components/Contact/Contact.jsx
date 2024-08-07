@@ -45,8 +45,8 @@ const Contact = () => {
     <Container style={{ paddingTop: "50px" }}>
       <Row>
         <Col md={6} className="c-left">
-          <h1>Get in Touch</h1>
-          <h1 className="yellow">Contact me</h1>
+          <h1>Let's get in Touch</h1>
+          <h1 className="yellow">Reach out</h1>
         </Col>
         <Col md={6} className="c-right">
           <form ref={form} onSubmit={sendEmail}>
@@ -71,14 +71,14 @@ const Contact = () => {
               onChange={handleChange}
             />
             <span className="not-done">
-              {notDone && "Please, fill all the input field"}
+              {notDone && "Please, fill all the input fields :)"}
             </span>
             <Button type="submit" className="button" disabled={done}>
               Send
             </Button>
             <span className="done">
               {done &&
-                "Thanks for contacting me and be sure i have recieved your mail. If you are testing this functionality then i am confirming this thing working perfectly fine. If you have any serious query then i will reply. Also if you need me, you can conatct me on Linkedin."}
+                "Thank you for contacting me! I will reply you as soon as possible, your message is important to me!"}
             </span>
           </form>
         </Col>

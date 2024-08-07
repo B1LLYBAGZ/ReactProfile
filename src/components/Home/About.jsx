@@ -16,22 +16,21 @@ const About = () => {
               A LITTLE ABOUT<span className="yellow"> MYSELF</span>
             </h1>
             <p className="home-about-body">
-              Hey, my name's <span className="yellow">William Hogan </span>
-              I'm from <span className="yellow"> Denver, Colorado.</span>
+              Hi, I'm <span className="yellow">William Hogan </span>
+              From <span className="yellow"> Denver, Colorado.</span>
               <br />
               <br />
-              I am graduated with a Certificate in Full stack development.
+              I hold a Certificate in Full Stack Development.
               <br />
               <br />
-              As a<b className="yellow"> Full-Stack </b>developer, I enjoy
-              tackling new challenges and continuously learning new valuable
+              As a<b className="yellow"> Full-Stack </b>developer, I thrive on
+              tackling new challenges while continuously learning valuable
               skills.
               <br />
               <br />I am proficient in
               <b className="yellow"> Javascript, </b>
-              as well as have knowledge in programming languages such as HTML,
-              CSS,
-              <b className="yellow"> GraphQL, and SQL.</b>
+              as well as have knowledge in programming languages such as
+              <b className="yellow"> HTML, CSS, GraphQL, and SQL.</b>
               <br />
               <br />I have a passion for working with{" "}
               <b className="yellow">Node.js, MongoDB,</b> and
@@ -46,7 +45,8 @@ const About = () => {
                 <b className="yellow"> React.js and Bootstrap.</b>
               </i>
               <br />
-              <br />I am also interested in building new
+              <br />
+              My interest is in developing cutting-edge
               <i>
                 <b className="yellow"> Web Technologies and Products, </b>
                 as well as exploring areas related to
@@ -93,7 +93,7 @@ const About = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/B1LLYBAGZ/"
+                  href="https://www.linkedin.com/in/william-hogan-771825310/?trk=public-profile-join-page"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

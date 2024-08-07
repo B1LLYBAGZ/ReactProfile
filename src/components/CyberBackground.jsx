@@ -1,12 +1,12 @@
 import React from "react";
 import cyberBackground from "../assets/cyberbackground.svg";
 
-function Particle() {
+const CyberBackground = () => {
   return (
     <div className="cyber-background">
       <img src={cyberBackground} alt="Cyber Background" />
     </div>
   );
-}
+};
 
-export default Particle;
+export default CyberBackground;
