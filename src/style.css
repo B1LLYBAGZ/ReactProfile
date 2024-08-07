@@ -161,8 +161,12 @@ button:focus {
 }
 
 .logo {
-  height: 5em !important;
-  width: 7.5em !important;
+  height: 3.5em !important;
+  width: 5em !important;
+}
+.logotop {
+  width: 250px !important;
+  height: 100px !important;
 }
 
 .navbar-nav .nav-link {
@@ -263,7 +267,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./assets/cyberbackground.svg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -387,13 +391,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #fdf902;
+  box-shadow: 0 0 15px #ff00fb;
 }
 
 .home-social-icons:hover {
-  color: #e5ff00;
-  box-shadow: 0 0 5px #fdf901;
-  text-shadow: 0 0 2px #fcf802;
+  color: #ff00fb;
+  box-shadow: 0 0 5px #ff00fb;
+  text-shadow: 0 0 2px #ff00fb;
 }
 
 .social-icons {
@@ -403,7 +407,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #e6ff01 !important;
+  color: #ff00fb !important;
 }
 
 /* --------- */
@@ -758,8 +762,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #fceb0186 !important;
-  border-color: #fceb0186 !important;
+  background-color: #3c00ff86 !important;
+  border-color: #3c00ff86 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
