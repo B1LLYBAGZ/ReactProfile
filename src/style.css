@@ -11,8 +11,8 @@ html {
     rgba(1, 4, 39, 0.925)
   );
 
-  --imp-text-color: #7500fa;
-  --imp-bold-text-color: #7500fa;
+  --imp-text-color: #000dff;
+  --imp-bold-text-color: #6d60ff;
 }
 
 .yellow {
@@ -267,11 +267,11 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./assets/cyberbackground.svg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .home-content {
@@ -291,7 +291,7 @@ button:focus {
 }
 
 .main-name {
-  color: #7500fa;
+  color: #ef27ff;
 }
 
 .Typewriter__wrapper {
@@ -635,6 +635,7 @@ button:focus {
   padding-top: 110px !important;
   padding-bottom: 30px !important;
   color: white !important;
+  background-color: rgba(0, 0, 0, 0.33) !important; /* Black with 50% opacity */
 }
 
 .resume {

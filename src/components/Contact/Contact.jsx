@@ -42,48 +42,53 @@ const Contact = () => {
   };
 
   return (
-    <Container style={{ paddingTop: "50px" }}>
-      <Row>
-        <Col md={6} className="c-left">
-          <h1>Let's get in Touch</h1>
-          <h1 className="yellow">Reach out</h1>
-        </Col>
-        <Col md={6} className="c-right">
-          <form ref={form} onSubmit={sendEmail}>
-            <input
-              type="text"
-              name="from_name"
-              className="user"
-              placeholder="Name"
-              onChange={handleChange}
-            />
-            <input
-              type="email"
-              name="reply_to"
-              className="user"
-              placeholder="Email"
-              onChange={handleChange}
-            />
-            <textarea
-              name="message"
-              className="user"
-              placeholder="Message"
-              onChange={handleChange}
-            />
-            <span className="not-done">
-              {notDone && "Please, fill all the input fields :)"}
-            </span>
-            <Button type="submit" className="button" disabled={done}>
-              Send
-            </Button>
-            <span className="done">
-              {done &&
-                "Thank you for contacting me! I will reply you as soon as possible, your message is important to me!"}
-            </span>
-          </form>
-        </Col>
-      </Row>
-    </Container>
+    <div className="contact-page-container">
+      <div className="contact-page-tint"></div>
+      <Container className="contact-section">
+        <Container style={{ paddingTop: "50px" }}>
+          <Row>
+            <Col md={6} className="c-left">
+              <h1>Let's get in Touch</h1>
+              <h1 className="yellow">Reach out</h1>
+            </Col>
+            <Col md={6} className="c-right">
+              <form ref={form} onSubmit={sendEmail}>
+                <input
+                  type="text"
+                  name="from_name"
+                  className="user"
+                  placeholder="Name"
+                  onChange={handleChange}
+                />
+                <input
+                  type="email"
+                  name="reply_to"
+                  className="user"
+                  placeholder="Email"
+                  onChange={handleChange}
+                />
+                <textarea
+                  name="message"
+                  className="user"
+                  placeholder="Message"
+                  onChange={handleChange}
+                />
+                <span className="not-done">
+                  {notDone && "Please, fill all the input fields :)"}
+                </span>
+                <Button type="submit" className="button" disabled={done}>
+                  Send
+                </Button>
+                <span className="done">
+                  {done &&
+                    "Thank you for contacting me! I will reply you as soon as possible, your message is important to me!"}
+                </span>
+              </form>
+            </Col>
+          </Row>
+        </Container>
+      </Container>
+    </div>
   );
 };
 
