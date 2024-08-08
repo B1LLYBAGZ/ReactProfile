@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
+import project from "../assets/projects/Screenshot 2024-08-07 at 10.11.19 PM.png";
+import lift from "../assets/projects/Screenshot 2024-08-07 at 10.31.19 PM.png";
+import krypto from "../assets/projects/19-pwa-homework-demo-01.gif";
 import kickstart from "../assets/projects/kickstart.png";
 
 const Projects = () => {
@@ -14,11 +14,9 @@ const Projects = () => {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Recent Top <strong className="yellow">Works </strong>
+          Recent <strong className="yellow">Projects </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here's some recent projects I've worked on.
-        </p>
+        <p style={{ color: "white" }}>Here's some recent work of mine.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -32,10 +30,10 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project}
+              imgPath={krypto}
               isBlog={false}
-              title="Just.Another.Text.Editor"
-              description="A simple test editor to create notes or code snippets with or without an internet connection."
+              title="J.A.T.E"
+              description="A simple text editor to create notes or code snippets with or without an internet connection."
               ghLink="https://github.com/B1LLYBAGZ/JATE"
             />
           </Col>
