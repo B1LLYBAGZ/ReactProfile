@@ -93,7 +93,11 @@ Once the server is running, you can access the website at `http://localhost:3000
 
 ## Project Structure
 
-```plaintext
+```
+plaintext
+
+```
+
 b1llybagz/
 │
 ├── public/                 # Static files
