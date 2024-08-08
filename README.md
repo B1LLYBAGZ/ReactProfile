@@ -56,7 +56,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/b1llybagz.git
+   git clone https://github.com/B1LLYBAGZ/b1llybagz.git
    ```
 
 ````
@@ -164,7 +164,3 @@ You can reach me via [email](mailto:098williamhogan@gmail.com) or through the co
 
 Thank you for visiting my website! Stay tuned for more updates and feel free to connect with me.
 
-```
-
-```
-````
