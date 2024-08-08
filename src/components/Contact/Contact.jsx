@@ -42,10 +42,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page-container">
-      <div className="contact-page-tint"></div>
-      <Container className="contact-section">
-        <Container style={{ paddingTop: "50px" }}>
+    <div className="contact-page-wrapper">
+      <div className="contact-page-container">
+        <Container fluid className="contact-section">
           <Row>
             <Col md={6} className="c-left">
               <h1>Let's get in Touch</h1>
@@ -87,7 +86,7 @@ const Contact = () => {
             </Col>
           </Row>
         </Container>
-      </Container>
+      </div>
     </div>
   );
 };
