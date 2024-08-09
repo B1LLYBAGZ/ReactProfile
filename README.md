@@ -64,7 +64,7 @@ To run this project locally, follow these steps:
    ```sh
    npm start
    ```
-
+````
 ## Usage
 
 Once the server is running, you can access the website at `http://localhost:3000`.
@@ -168,5 +168,4 @@ Thank you for visiting my website! Stay tuned for more updates and feel free to 
 
 ```
 
-```
 ````
