@@ -146,17 +146,11 @@ Here are some screenshots and images related to my projects:
 
 ### Homepage
 
-![Homepage Screenshot](path/to/homepage-screenshot.png)
+![Homepage Screenshot](<img width="1680" alt="Screenshot 2024-08-07 at 10 31 19 PM" src="https://github.com/user-attachments/assets/d923ea2b-d392-4127-9834-03645eae84b2">)
 
 ### Portfolio Section
 
-![Portfolio Screenshot](path/to/portfolio-screenshot.png)
-
-### Blog Section
-
-![Blog Screenshot](path/to/blog-screenshot.png)
-
-_Note: Replace the `path/to/` placeholders with the actual paths to your image files. You can upload these images to your GitHub repository and use the relative paths, or you can host them elsewhere and use the direct URLs._
+![Portfolio Screenshot](<img width="1680" alt="Screenshot 2024-08-08 at 8 57 11 PM" src="https://github.com/user-attachments/assets/cb220238-7d5b-4290-9d20-53eab84281c6">)
 
 ## Contact
 
