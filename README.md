@@ -1,6 +1,3 @@
-Certainly! Here's an updated version of your README that includes a "Pictures" section where you can showcase screenshots or other images related to your projects or website.
-
-````markdown
 # b1llybagz Website
 
 Welcome to the b1llybagz personal website, an online portfolio and blog by William Hogan. This site showcases my work, shares my thoughts on various tech topics, and provides a way to connect with me.
@@ -48,6 +45,7 @@ To run this project locally, follow these steps:
    ```sh
    git clone https://github.com/B1LLYBAGZ/b1llybagz.git
    ```
+
 ````
 
 2. **Navigate to the project directory**:
@@ -171,3 +169,4 @@ Thank you for visiting my website! Stay tuned for more updates and feel free to 
 ```
 
 ```
+````
