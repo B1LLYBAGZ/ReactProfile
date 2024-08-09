@@ -1,3 +1,6 @@
+It sounds like the formatting of your README file on GitHub might be off. Let's clean it up so it displays correctly. Here's a revised version of your README with correct Markdown formatting:
+
+````markdown
 # b1llybagz Website
 
 Welcome to the b1llybagz personal website, an online portfolio and blog by William Hogan. This site showcases my work, shares my thoughts on various tech topics, and provides a way to connect with me.
@@ -9,6 +12,11 @@ Welcome to the b1llybagz personal website, an online portfolio and blog by Willi
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Scripts](#scripts)
+  - [Frontend](#frontend)
+  - [Backend](#backend)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -39,17 +47,20 @@ To run this project locally, follow these steps:
    ```sh
    git clone https://github.com/B1LLYBAGZ/b1llybagz.git
    ```
-
 ````
 
 2. **Navigate to the project directory**:
+
    ```sh
    cd b1llybagz
    ```
+
 3. **Install dependencies**:
+
    ```sh
    npm install
    ```
+
 4. **Start the development server**:
    ```sh
    npm start
@@ -138,4 +149,6 @@ You can reach me via [email](mailto:098williamhogan@gmail.com) or through the co
 
 Thank you for visiting my website! Stay tuned for more updates and feel free to connect with me.
 
-````
+```
+
+```
